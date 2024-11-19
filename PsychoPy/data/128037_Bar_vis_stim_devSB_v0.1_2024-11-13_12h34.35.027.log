@@ -1,0 +1,91 @@
+3.1542 	INFO 	Loaded monitor calibration from ['2024_06_27 19:13']
+3.2439 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000012E0DEFC220>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000012E0DEFC1C0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000012E0DEF9FD0>, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000012E10FB3C40>, multiSample=False, name='window1', numSamples=2, pos=[1520.0, 780.0], screen=1, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+3.2439 	EXP 	window1: backgroundImage = ''
+3.2439 	EXP 	window1: backgroundFit = 'none'
+3.2440 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000012E0DEFC340>
+3.2441 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000012E0DEFC340>
+3.2451 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000012E0DEFC340>
+3.2454 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000012E0DEFC340>
+3.2479 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.2486 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.2493 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.2501 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.2508 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.2514 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.2521 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.2528 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.2533 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.2538 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.2544 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.2551 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.2558 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.2565 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.2571 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.2578 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.2584 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.2590 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.2595 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.2603 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.2608 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.2610 	DEBUG 	Uploading Texture Font fontname to graphics card
+3.2622 	DEBUG 	Upload of Texture Font fontname complete
+3.2630 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000012E0DEFC340>
+3.2631 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000012E0DEFC340>
+3.2634 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000012E0DEFC340>
+3.2637 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x0000012E0DEFC340>
+3.2658 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.2666 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.2674 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.2675 	DEBUG 	Uploading Texture Font fontname to graphics card
+3.2680 	DEBUG 	Upload of Texture Font fontname complete
+3.2689 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+3.2690 	EXP 	window1: recordFrameIntervals = False
+3.4411 	EXP 	window1: recordFrameIntervals = True
+3.6234 	EXP 	Screen (1) actual frame rate measured at 60.37Hz
+3.6236 	EXP 	window1: recordFrameIntervals = False
+3.6236 	EXP 	window1: mouseVisible = True
+3.6240 	EXP 	window1: mouseVisible = True
+3.6242 	EXP 	window1: mouseVisible = True
+3.6249 	EXP 	window1: mouseVisible = True
+3.6255 	EXP 	window1: mouseVisible = True
+3.6287 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.6293 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.6301 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.6309 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.6317 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.6326 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.6331 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.6339 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.6347 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.6354 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.6356 	DEBUG 	Uploading Texture Font fontname to graphics card
+3.6359 	DEBUG 	Upload of Texture Font fontname complete
+3.6369 	EXP 	window1: mouseVisible = True
+3.6370 	EXP 	window1: mouseVisible = True
+3.6374 	EXP 	window1: mouseVisible = True
+3.6377 	EXP 	window1: mouseVisible = True
+3.6474 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+4.8895 	INFO 	keyboard.Keyboard is using iohub backend.
+4.8895 	EXP 	Bar_vis_stim_devSB_v0.1: status = STARTED
+4.8896 	EXP 	window1: mouseVisible = True
+4.8901 	DEPRECATION 	Requiring a square power of two (e.g. 16 x 16, 256 x 256) texture but didn't receive one
+4.8926 	EXP 	Created grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, interpolate=True, mask=ndarray(...), maskParams=None, name='grating', opacity=1.0, ori=0.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([4., 4.]), size=array([0.1, 1. ]), tex=ndarray(...), texRes=128.0, units='height', win=Window(...))
+4.8927 	EXP 	window1: mouseVisible = True
+4.8946 	EXP 	Created horizontal_right = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=ndarray(...), fillColorSpace='rgb', fillRGB=ndarray(...), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=10.0, name='horizontal_right', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 1. ]), units='height', vertices=ndarray(...), win=Window(...))
+4.8947 	EXP 	window1: mouseVisible = True
+4.8962 	EXP 	Created gray_screen = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([0., 0., 0.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='gray_screen', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+4.8962 	EXP 	window1: mouseVisible = True
+4.8971 	EXP 	Created horlef = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=10.0, name='horlef', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.1, 1. ]), units='height', vertices=ndarray(...), win=Window(...))
+4.8972 	EXP 	window1: mouseVisible = True
+4.8980 	EXP 	Created vertical_down = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='vertical_down', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2. , 0.1]), units='height', vertices=ndarray(...), win=Window(...))
+4.8981 	EXP 	window1: mouseVisible = True
+4.8990 	EXP 	Created gray_screen_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([0., 0., 0.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='gray_screen_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+4.8991 	EXP 	window1: mouseVisible = True
+4.8999 	EXP 	Created vertical_up = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='vertical_up', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2. , 0.1]), units='height', vertices=ndarray(...), win=Window(...))
+0.0272 	DEPRECATION 	Requiring a square power of two (e.g. 16 x 16, 256 x 256) texture but didn't receive one
+0.0408 	EXP 	grating: autoDraw = True
+0.0408 	EXP 	grating: tex = <class 'numpy.ndarray'>
+10.0261 	EXP 	window1: mouseVisible = True
+10.0268 	DEBUG 	Saving data for Bar_vis_stim_devSB_v0.1 ExperimentHandler
+10.0273 	INFO 	saved data to C:\dev\sipefield-gratings\PsychoPy\data/128037_Bar_vis_stim_devSB_v0.1_2024-11-13_12h34.35.027.psydat
+10.0276 	INFO 	saved data to 'C:\\dev\\sipefield-gratings\\PsychoPy\\data/128037_Bar_vis_stim_devSB_v0.1_2024-11-13_12h34.35.027.csv'

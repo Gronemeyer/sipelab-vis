@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.1.5),
-    on November 15, 2024, at 10:46
+    on November 19, 2024, at 16:46
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -32,15 +32,6 @@ import sys  # to get file system encoding
 
 import psychopy.iohub as io
 from psychopy.hardware import keyboard
-
-# Run 'Before Experiment' code from checker_texture_left
-import numpy as np
-from stimupy.stimuli.checkerboards import checkerboard
-
-stim = checkerboard(visual_size=(13,3), ppd=31, 
-shape=None, frequency=0.5, board_shape=(13,3), 
-check_visual_size=1, period='ignore', rotation=0, 
-intensity_checks=(-1,1), intensity_target=1)
 
 # --- Setup global variables (available in all functions) ---
 # create a device manager to handle hardware (keyboards, mice, mirophones, speakers, etc.)
@@ -358,78 +349,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # Start Code - component code to be run after the window creation
     
-    # --- Initialize components for Routine "Vert_Move_Right" ---
-    # Run 'Begin Experiment' code from checker_texture_right
-    import numpy as np
-    from psychopy import visual
-    from stimupy.stimuli.checkerboards import checkerboard
-    
-    stim = checkerboard(visual_size=(13,3), ppd=31, 
-    shape=None, frequency=0.5, board_shape=(13,3), 
-    check_visual_size=1, period='ignore', rotation=0, 
-    intensity_checks=(-1,1), intensity_target=1)
-    
-    #PARAMETERS
-    
-    frame_rate = 60
-    
-    color_alternating_freq = int(frame_rate/12)
-    
-    #Initialize frame counter
-    frame_counter = 0
-    
-    
-    
-    
-    move_right = visual.GratingStim(
-        win=win, name='move_right',
-        tex=stim['img'], mask=None, anchor='center',
-        ori=0.0, pos=[0,0], size=(0.2,1), sf=None, phase=1.0,
-        color='white', colorSpace='rgb',
-        opacity=1.0, contrast=1.0, blendmode='avg',
-        texRes=128.0, interpolate=True, depth=-1.0)
-    gray_screen_1 = visual.ImageStim(
-        win=win,
-        name='gray_screen_1', 
-        image=None, mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), size=(0.5, 0.5),
-        color=[0,0,0], colorSpace='rgb', opacity=None,
-        flipHoriz=False, flipVert=False,
-        texRes=128.0, interpolate=True, depth=-2.0)
-    
-    # --- Initialize components for Routine "Vert_Move_Left" ---
-    # Run 'Begin Experiment' code from checker_texture_left
-    import numpy as np
-    from psychopy import visual
-    
-    #PARAMETERS
-    ppd = 31
-    frame_rate = 60
-    
-    color_alternating_freq = int(frame_rate/12)
-    
-    #Initialize frame counter
-    frame_counter = 0
-    
-    
-    
-    
-    move_left = visual.GratingStim(
-        win=win, name='move_left',
-        tex=stim['img'], mask=None, anchor='center',
-        ori=0.0, pos=[0,0], size=(0.2,1), sf=None, phase=1.0,
-        color='white', colorSpace='rgb',
-        opacity=1.0, contrast=1.0, blendmode='avg',
-        texRes=128.0, interpolate=True, depth=-1.0)
-    gray_screen_2 = visual.ImageStim(
-        win=win,
-        name='gray_screen_2', 
-        image=None, mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), size=(0.5, 0.5),
-        color=[0,0,0], colorSpace='rgb', opacity=None,
-        flipHoriz=False, flipVert=False,
-        texRes=128.0, interpolate=True, depth=-2.0)
-    
     # --- Initialize components for Routine "Hor_Mov_Down" ---
     # Run 'Begin Experiment' code from checker_texture_down
     import numpy as np
@@ -437,8 +356,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     from stimupy.stimuli.checkerboards import checkerboard
     
-    stim = checkerboard(visual_size=(3,13), ppd=31, 
-    shape=None, frequency=0.5, board_shape=(3,13), 
+    stim = checkerboard(visual_size=(3,14), ppd=31, 
+    shape=None, frequency=0.5, board_shape=(3,14), 
     check_visual_size=1, period='ignore', rotation=0, 
     intensity_checks=(-1,1), intensity_target=1)
     
@@ -456,7 +375,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     move_down = visual.GratingStim(
         win=win, name='move_down',
         tex=stim['img'], mask=None, anchor='center',
-        ori=0.0, pos=[0,0], size=(1, 0.1), sf=None, phase=1.0,
+        ori=0.0, pos=[0,0], size=(1.35, 0.2), sf=None, phase=1.0,
         color='white', colorSpace='rgb',
         opacity=1.0, contrast=1.0, blendmode='avg',
         texRes=128.0, interpolate=True, depth=-1.0)
@@ -476,8 +395,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     from stimupy.stimuli.checkerboards import checkerboard
     
-    stim = checkerboard(visual_size=(3,13), ppd=31, 
-    shape=None, frequency=0.5, board_shape=(3,13), 
+    stim = checkerboard(visual_size=(3,15), ppd=31, 
+    shape=None, frequency=0.5, board_shape=(3,15), 
     check_visual_size=1, period='ignore', rotation=0, 
     intensity_checks=(-1,1), intensity_target=1)
     
@@ -495,7 +414,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     move_up = visual.GratingStim(
         win=win, name='move_up',
         tex=stim['img'], mask=None, anchor='center',
-        ori=0.0, pos=[0,0], size=(1, 0.1), sf=None, phase=1.0,
+        ori=0.0, pos=[0,0], size=(1.35, 0.2), sf=None, phase=1.0,
         color='white', colorSpace='rgb',
         opacity=1.0, contrast=1.0, blendmode='avg',
         texRes=128.0, interpolate=True, depth=-1.0)
@@ -535,296 +454,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     expInfo['expStart'] = data.getDateStr(
         format='%Y-%m-%d %Hh%M.%S.%f %z', fractionalSecondDigits=6
     )
-    
-    # --- Prepare to start Routine "Vert_Move_Right" ---
-    continueRoutine = True
-    # update component parameters for each repeat
-    thisExp.addData('Vert_Move_Right.started', globalClock.getTime(format='float'))
-    # keep track of which components have finished
-    Vert_Move_RightComponents = [move_right, gray_screen_1]
-    for thisComponent in Vert_Move_RightComponents:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    frameN = -1
-    
-    # --- Run Routine "Vert_Move_Right" ---
-    routineForceEnded = not continueRoutine
-    while continueRoutine and routineTimer.getTime() < 30.0:
-        # get current time
-        t = routineTimer.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=routineTimer)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
-        # Run 'Each Frame' code from checker_texture_right
-        #need to change foreground color value from black to 
-        #white at 6Hz
-        
-        # Update frame counter
-        frame_counter += 1
-        
-        #Swap foreground color at 6Hz frequency
-        if frame_counter % (color_alternating_freq * 2) < color_alternating_freq:
-            move_right.color = 'white'
-        else:
-            move_right.color = 'black'
-        
-        
-        
-        
-        # *move_right* updates
-        
-        # if move_right is starting this frame...
-        if move_right.status == NOT_STARTED and tThisFlip >= 0-frameTolerance:
-            # keep track of start time/frame for later
-            move_right.frameNStart = frameN  # exact frame index
-            move_right.tStart = t  # local t and not account for scr refresh
-            move_right.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(move_right, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'move_right.started')
-            # update status
-            move_right.status = STARTED
-            move_right.setAutoDraw(True)
-        
-        # if move_right is active this frame...
-        if move_right.status == STARTED:
-            # update params
-            move_right.setPos((-1+t*0.1, 0), log=False)
-            move_right.setPhase(0.0, log=False)
-        
-        # if move_right is stopping this frame...
-        if move_right.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > move_right.tStartRefresh + 20-frameTolerance:
-                # keep track of stop time/frame for later
-                move_right.tStop = t  # not accounting for scr refresh
-                move_right.tStopRefresh = tThisFlipGlobal  # on global time
-                move_right.frameNStop = frameN  # exact frame index
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'move_right.stopped')
-                # update status
-                move_right.status = FINISHED
-                move_right.setAutoDraw(False)
-        
-        # *gray_screen_1* updates
-        
-        # if gray_screen_1 is starting this frame...
-        if gray_screen_1.status == NOT_STARTED and tThisFlip >= 20-frameTolerance:
-            # keep track of start time/frame for later
-            gray_screen_1.frameNStart = frameN  # exact frame index
-            gray_screen_1.tStart = t  # local t and not account for scr refresh
-            gray_screen_1.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(gray_screen_1, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'gray_screen_1.started')
-            # update status
-            gray_screen_1.status = STARTED
-            gray_screen_1.setAutoDraw(True)
-        
-        # if gray_screen_1 is active this frame...
-        if gray_screen_1.status == STARTED:
-            # update params
-            pass
-        
-        # if gray_screen_1 is stopping this frame...
-        if gray_screen_1.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > gray_screen_1.tStartRefresh + 10-frameTolerance:
-                # keep track of stop time/frame for later
-                gray_screen_1.tStop = t  # not accounting for scr refresh
-                gray_screen_1.tStopRefresh = tThisFlipGlobal  # on global time
-                gray_screen_1.frameNStop = frameN  # exact frame index
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'gray_screen_1.stopped')
-                # update status
-                gray_screen_1.status = FINISHED
-                gray_screen_1.setAutoDraw(False)
-        
-        # check for quit (typically the Esc key)
-        if defaultKeyboard.getKeys(keyList=["escape"]):
-            thisExp.status = FINISHED
-        if thisExp.status == FINISHED or endExpNow:
-            endExperiment(thisExp, win=win)
-            return
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            routineForceEnded = True
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in Vert_Move_RightComponents:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # --- Ending Routine "Vert_Move_Right" ---
-    for thisComponent in Vert_Move_RightComponents:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    thisExp.addData('Vert_Move_Right.stopped', globalClock.getTime(format='float'))
-    # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
-    if routineForceEnded:
-        routineTimer.reset()
-    else:
-        routineTimer.addTime(-30.000000)
-    thisExp.nextEntry()
-    
-    # --- Prepare to start Routine "Vert_Move_Left" ---
-    continueRoutine = True
-    # update component parameters for each repeat
-    thisExp.addData('Vert_Move_Left.started', globalClock.getTime(format='float'))
-    # keep track of which components have finished
-    Vert_Move_LeftComponents = [move_left, gray_screen_2]
-    for thisComponent in Vert_Move_LeftComponents:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    frameN = -1
-    
-    # --- Run Routine "Vert_Move_Left" ---
-    routineForceEnded = not continueRoutine
-    while continueRoutine and routineTimer.getTime() < 30.0:
-        # get current time
-        t = routineTimer.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=routineTimer)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
-        # update/draw components on each frame
-        # Run 'Each Frame' code from checker_texture_left
-        #need to change foreground color value from black to 
-        #white at 6Hz
-        
-        # Update frame counter
-        frame_counter += 1
-        
-        #Swap foreground color at 6Hz frequency
-        if frame_counter % (color_alternating_freq * 2) < color_alternating_freq:
-            move_left.color = 'white'
-        else:
-            move_left.color = 'black'
-        
-        
-        
-        
-        # *move_left* updates
-        
-        # if move_left is starting this frame...
-        if move_left.status == NOT_STARTED and tThisFlip >= 0-frameTolerance:
-            # keep track of start time/frame for later
-            move_left.frameNStart = frameN  # exact frame index
-            move_left.tStart = t  # local t and not account for scr refresh
-            move_left.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(move_left, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'move_left.started')
-            # update status
-            move_left.status = STARTED
-            move_left.setAutoDraw(True)
-        
-        # if move_left is active this frame...
-        if move_left.status == STARTED:
-            # update params
-            move_left.setPos((1+t*-0.1, 0), log=False)
-            move_left.setPhase(0.0, log=False)
-        
-        # if move_left is stopping this frame...
-        if move_left.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > move_left.tStartRefresh + 20-frameTolerance:
-                # keep track of stop time/frame for later
-                move_left.tStop = t  # not accounting for scr refresh
-                move_left.tStopRefresh = tThisFlipGlobal  # on global time
-                move_left.frameNStop = frameN  # exact frame index
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'move_left.stopped')
-                # update status
-                move_left.status = FINISHED
-                move_left.setAutoDraw(False)
-        
-        # *gray_screen_2* updates
-        
-        # if gray_screen_2 is starting this frame...
-        if gray_screen_2.status == NOT_STARTED and tThisFlip >= 20-frameTolerance:
-            # keep track of start time/frame for later
-            gray_screen_2.frameNStart = frameN  # exact frame index
-            gray_screen_2.tStart = t  # local t and not account for scr refresh
-            gray_screen_2.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(gray_screen_2, 'tStartRefresh')  # time at next scr refresh
-            # add timestamp to datafile
-            thisExp.timestampOnFlip(win, 'gray_screen_2.started')
-            # update status
-            gray_screen_2.status = STARTED
-            gray_screen_2.setAutoDraw(True)
-        
-        # if gray_screen_2 is active this frame...
-        if gray_screen_2.status == STARTED:
-            # update params
-            pass
-        
-        # if gray_screen_2 is stopping this frame...
-        if gray_screen_2.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > gray_screen_2.tStartRefresh + 10-frameTolerance:
-                # keep track of stop time/frame for later
-                gray_screen_2.tStop = t  # not accounting for scr refresh
-                gray_screen_2.tStopRefresh = tThisFlipGlobal  # on global time
-                gray_screen_2.frameNStop = frameN  # exact frame index
-                # add timestamp to datafile
-                thisExp.timestampOnFlip(win, 'gray_screen_2.stopped')
-                # update status
-                gray_screen_2.status = FINISHED
-                gray_screen_2.setAutoDraw(False)
-        
-        # check for quit (typically the Esc key)
-        if defaultKeyboard.getKeys(keyList=["escape"]):
-            thisExp.status = FINISHED
-        if thisExp.status == FINISHED or endExpNow:
-            endExperiment(thisExp, win=win)
-            return
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            routineForceEnded = True
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in Vert_Move_LeftComponents:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
-    
-    # --- Ending Routine "Vert_Move_Left" ---
-    for thisComponent in Vert_Move_LeftComponents:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    thisExp.addData('Vert_Move_Left.stopped', globalClock.getTime(format='float'))
-    # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
-    if routineForceEnded:
-        routineTimer.reset()
-    else:
-        routineTimer.addTime(-30.000000)
-    thisExp.nextEntry()
     
     # --- Prepare to start Routine "Hor_Mov_Down" ---
     continueRoutine = True
@@ -1029,7 +658,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # if move_up is active this frame...
         if move_up.status == STARTED:
             # update params
-            move_up.setPos((0, -2+t*0.07), log=False)
+            move_up.setPos((0, -0.5+t*0.07), log=False)
             move_up.setPhase(0.0, log=False)
         
         # if move_up is stopping this frame...
