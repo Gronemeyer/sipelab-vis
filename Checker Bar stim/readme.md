@@ -11,14 +11,15 @@ Each randomize trial is currently ~106.8 seconds
 - Vertical Right (30.0s)
 
 - Vertical Left (30.0s)
-
+
+NOTE: Trials are defined in an accompanying `.csv` file
 
 
 ## Features:
 
 
 
-`InputOutput` Routine available for running experiment as a script with command line argument parameterization
+`InputOutput` Routine available for running experiment as a script/subprocess. Accepts a serialized python dictionary object containing parameters for saving files to BIDS format; is extensible to receive extra parameters from any parent process capable of serializing a python dictionary object.
 
 
 
@@ -31,7 +32,7 @@ Each randomize trial is currently ~106.8 seconds
 
 - Set Trials to nTrials
 
-
+- Edit settings -> Data output to `sysarg_save_path`
 
 - Enable InputOutput routine
 
